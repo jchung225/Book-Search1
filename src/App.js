@@ -24,7 +24,7 @@ class App extends Component {
     // make API request
     const nytApiCall = await fetch(
       "https://api.nytimes.com/svc/books/v3/lists.json?list=" +
-        formSearch + "&RuWkoSPUvskXueVNvuN9J20EQbXhGPWi=" + "893ff80ed7b54b818c6dd60f0810fe80"
+        formSearch + "&api-key=X1Re6hPQP4EJxagu0y2Iy8cnmsi33kmV"
     );
 
     const data = await nytApiCall.json();
