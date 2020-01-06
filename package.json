@@ -9,6 +9,8 @@
     "react-scripts": "2.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -28,11 +30,13 @@
     "url": "git+https://github.com/jchung225/Book-Search1.git"
   },
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jchung225/Book-Search1/issues"
   },
-  "homepage": "https://github.com/jchung225/Book-Search1#readme"
+  "homepage": "https://jchung225.github.io/Book-Search1/"
 }

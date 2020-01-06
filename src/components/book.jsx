@@ -16,9 +16,7 @@ class Book extends Component {
   findBookCover = async isbn => {
     const googleApiCall = await fetch(
       "https://www.googleapis.com/books/v1/volumes?q=isbn:" +
-        isbn +
-        "&key=" +
-        process.env.REACT_APP_GOOGLE_BOOKS_API_KEY
+        isbn + "&key=" + process.env.REACT_APP_GOOGLE_BOOKS_API_KEY
     );
 
     const data = await googleApiCall.json();
