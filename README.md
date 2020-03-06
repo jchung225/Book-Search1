@@ -1,6 +1,9 @@
 # Book-Search1
+Deployed at https://jchung225.github.io/Book-Search1/
 
 for book search to work must search
+
+[
 "hardcover-fiction
 "hardcover-nonfiction"
 "Combined Print & E-Book Fiction"
@@ -9,3 +12,4 @@ for book search to work must search
 "advice-how-to-and-miscellaneous"
 "childrens-middle-grade-hardcover"
  "young-adult-hardcover"
+]
